@@ -1,0 +1,7 @@
+{
+  "name": "Audiscribe",
+  "description": "An AI-powered learning platform that transforms spoken lectures into well-structured written courses for the deaf and hard-of-hearing.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
