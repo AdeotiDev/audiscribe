@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audiscribe - AI Learning for All</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': '#0057FF',
+              'brand-dark': '#0F172A',
+              'brand-light': '#F8FAFC',
+            },
+          },
+        },
+      }
+    </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react-markdown": "https://esm.sh/react-markdown@9?deps=react@19.2.0",
+    "remark-gfm": "https://esm.sh/remark-gfm@4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/audiscribe/assets/index-czAagJzT.js"></script>
+</head>
+  <body class="bg-brand-light dark:bg-brand-dark">
+    <div id="root"></div>
+  </body>
+</html>
