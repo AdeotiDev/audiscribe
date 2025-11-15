@@ -35,9 +35,9 @@ const CourseReader: React.FC<CourseReaderProps> = ({ course, onBack }) => {
       </div>
       
       <div className="mt-8 bg-blue-50 dark:bg-slate-800 border border-blue-200 dark:border-slate-700 rounded-lg p-6">
-        <h3 className="text-lg font-semibold text-brand-dark dark:text-slate-200">Sign Language Animation (Placeholder)</h3>
+        <h3 className="text-lg font-semibold text-brand-dark dark:text-slate-200">Project Credit:</h3>
         <div className="mt-4 h-48 bg-slate-200 dark:bg-slate-700 rounded flex items-center justify-center">
-          <p className="text-slate-500 dark:text-slate-400">Future feature: Real-time sign language translation will appear here.</p>
+               <p className="my-4 text-lg border-t-blue-600 py-4 px-2 border-t-1 font-medium"> <span className="text-red-700 dark:text-white font-semibold">Project by</span> Ibidun Moses Segun. <span className="text-red-700 dark:text-white font-semibold">Matric number:</span> NOU  251992667.</p>
         </div>
       </div>
     </div>
